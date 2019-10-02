@@ -28,11 +28,11 @@
         enabled: yes
     - name: Copy configs
       copy:
-        src: /proj0/ansible/configs/apache2.conf
+        src: ~/NovaProspekt-Project0/ansible/configs/apache2.conf
         dest: /etc/apache2/apache2.conf
     - name: Copy site
       copy:
-        src: /proj0/html
+        src: ~/NovaProspekt-Project0/html
         dest: /var/www/
         owner: www-data
         group: www-data
