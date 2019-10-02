@@ -1,0 +1,44 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Install packages and dependencies
+      apt:
+        name: "{{ packages }}"
+      vars:
+        packages:
+          - vim
+          - git
+          - curl
+          - zip
+          - apache2
+          - mysql-client
+          - php
+          - libapache2-mod-php
+          - php-mysql
+          - php7.2-cli
+          - php7.2-curl
+          - php7.2-gd
+          - php7.2-mbstring
+          - php7.2-mysql
+          - php7.2-xml
+    - name: Start apache
+      service:
+        name: apache2
+        state: started
+        enabled: yes
+    - name: Copy configs
+      copy:
+        src: /proj0/ansible/configs/apache2.conf
+        dest: /etc/apache2/apache2.conf
+    - name: Copy site
+      copy:
+        src: /proj0/html
+        dest: /var/www/
+        owner: www-data
+        group: www-data
+        directory_mode: yes
+    - name: Restart Apache
+      service:
+        name: apache2
+        state: restarted
+...
