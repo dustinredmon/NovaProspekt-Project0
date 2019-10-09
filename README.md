@@ -11,6 +11,7 @@
 #  - Uses EC2 to host server and site files 
 #  - Uses Route53 DNS for name resolution and traffic management
 #  - Uses NameCheap for the domain name
+#  - Uses ACM for TLS/SSL certification for site security and encryption
 #  
 # 2. Installation
 #  - Clone project into user home directory - https://github.com/qusad/NovaProspekt-Project0.git
