@@ -18,7 +18,7 @@
 # 3. Contribute and Contact
 # - Github: https://github.com/qusad/NovaProspekt-Project0
 # - Vlad Shtyrts: vlad.shtyrts.599@my.csun.edu
-# - Dustin Redmon: xx
+# - Dustin Redmon: dustin.redmon.39@my.csun.edu
 # - Viktar Mizeryia: viktar.mizeryia.33@my.csun.edu
 # 
 # 4. LICENSE
