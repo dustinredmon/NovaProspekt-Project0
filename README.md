@@ -1,7 +1,7 @@
 ##################################################################################################
 # CIT480 - Group Project 0                                                                       #
 # Team Name: NovaProspekt                                                                        #
-# Team Members: Vlad Shtyrts, Dustin Redmon                                                      #
+# Team Members: Vlad Shtyrts, Dustin Redmon, Viktar Mizeryia                                     #
 # Description: A basic one-page website hosted on Amazon Web Services                            #
 # using VPC, EC2, Route53 DNS, HTML/CSS - https://novaprospekt.xyz/                              #
 ##################################################################################################
