@@ -10,7 +10,7 @@
 #  - Uses VPC with XX subnets 
 #  - Uses EC2 to host server and site files 
 #  - Uses Route53 DNS for name resolution and traffic management
-#  - PLACEHOLDER
+#  - Uses NameCheap for the domain name
 #  
 # 2. Installation
 #  - Clone project into user home directory - https://github.com/qusad/NovaProspekt-Project0.git
