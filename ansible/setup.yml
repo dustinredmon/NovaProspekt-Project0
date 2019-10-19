@@ -34,8 +34,6 @@
       copy:
         src: ~/NovaProspekt-Project0/html
         dest: /var/www/
-        owner: www-data
-        group: www-data
         directory_mode: yes
     - name: Restart Apache
       service:
